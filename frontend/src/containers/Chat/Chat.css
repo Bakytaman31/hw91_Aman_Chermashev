@@ -1,0 +1,22 @@
+.interface {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.online {
+    border: 2px solid #ccc;
+    margin: 0;
+    width: 20%;
+    height: 400px;
+    overflow: auto
+}
+
+.messages {
+    border: 2px solid #ccc;
+    margin: 0;
+    width: 60%;
+    height: 400px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
